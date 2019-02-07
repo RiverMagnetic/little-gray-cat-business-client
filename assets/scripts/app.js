@@ -7,5 +7,7 @@
 // require('./example')
 
 $(() => {
-  // your JS code goes here
+  $('div').on('click', function() {
+    $(this).toggleClass('show-description');
+  });
 })
